@@ -6,7 +6,9 @@ export const getPokemons = () => {
         dispatch(cargandoPokemons());
         //fetch
         const resp = await pokemonApi.get();
-        console.log(resp.data);
-        dispatch(setPokemons({ pokemons: resp.data }));
+        const {data} = resp.data;
+        console.log(data);
+        dispatch(setPokemons({ pokemons: data }));
+        localStorage.setItem("pokemons", JSON.stringify(data));
     }
 }

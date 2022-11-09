@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { store } from './app/store';
 
 import reportWebVitals from './reportWebVitals';
-import './index.css';
+import './Pokemon.css';
 import { Pokemon } from './Pokemon';
 
 const container = document.getElementById('root');

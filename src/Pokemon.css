@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    position: absolute;
+    background: #F7F7F7;
+    left: 50%;
+    top: 25vh;
+    transform: translate(-50%, -50%);
+
+}
+
+.text_pokedex {
+    margin-top: 20px;
+    width: 272px;
+    height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 32px;
+    display: flex;
+    color: #212121;
+    padding-left: 5px;
+}
+
+.poke_logo {
+    float: left;
+    width: 54px;
+    height: 40px;
+}
+
+.btn_add {
+    display: flex;
+    padding: 5px 5px 10px 6px;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: #009688;
+    border-radius: 100px;
+    color: white;
+    float: right;
+
+}
+
+.busca_pok {
+    align-items: center;
+    background-size: 20px;
+    box-sizing: border-box;
+    padding: 4px 8px;
+    gap: 16px;
+    width: 328px;
+    height: 24px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.cards {
+    margin-left: 10px;
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 280px;
+    height: 310px;
+    /* White */
+
+    background: #FFFFFF;
+    /* Type - Grass */
+
+    border: 2px solid #74CB48;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+.card_title {
+    width: 88px;
+    height: 16px;
+
+    /* Poppins Regular 10 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    /* identical to box height, or 160% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.card_body {
+    align-items: center;
+    padding: 4px 8px;
+    width: 280px;
+    height: 50px;
+}
+
+.body_poke {
+    display: flex;
+    padding-inline: 10px;
+
+}
+
+.card-title {
+    width: 88px;
+    height: 16px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    /* identical to box height, or 160% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.container_poke {
+    display: flex;
+    justify-content: left;
+}
